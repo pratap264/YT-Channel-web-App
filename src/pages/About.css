@@ -1,0 +1,78 @@
+.container5 {
+  background-color: white;
+  margin-top: 37px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("https://preview.redd.it/vveevzqpz2371.png?width=1920&format=png&auto=webp&s=94d385fedf5cb2f7a81a2aef6fbd22446f101296");
+  background-size: cover;
+}
+.Box1 {
+  color: white;
+  margin: auto;
+  /* margin: 50px 180px; */
+  margin-top: 10px;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: row;
+  /* background-color:rgba(55, 53, 53, 0.541);  */
+  /* padding: 30px; */
+  justify-content: center;
+  /* border: 2px solid black; */
+  /* border-radius: 5%; */
+  /* box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75); */
+}
+.form {
+  /* display:inline-block; */
+  font-size: 22px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+input {
+  font-size: 30px;
+  line-height: 40px;
+  /* background-color:rgba(55, 53, 53, 0.308);  */
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-top: 20px;
+border-bottom: 1px solid rgb(21, 243, 255) !important;
+  
+}
+textarea {
+  line-height: 80px;
+  /* width: 100%;
+    background-color:rgba(55, 53, 53, 0.541);  */
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(21, 243, 255) !important;
+}
+.AboutText {
+  background-color: transparent;
+  /* display:inline-block;
+   width:40%; */
+  width: 40%;
+  margin-top: 80px;
+}
+/* .AboutText h2 {
+  font-size: 330px;
+  color: transparent;
+} */
+
+.btnAbout {
+    color: white;
+  /* background-color:rgb(214, 14, 14);  */
+  background-color: transparent;
+  /* background-color: rgb(255, 251, 251); */
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  
+}
+.btnAbout:hover {
+    border-bottom: 1px solid rgb(21, 243, 255) !important;
+    
+
+  
+}

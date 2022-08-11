@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://kit.fontawesome.com/a076d05399.js");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap');
+
+.container {
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.61);
+  text-align: center;
+}
+.cpy {
+  /* height: 230px; */
+  width: 100%;
+  /* color: white; */
+  /* font-size: 22px;
+   padding: 20px 20px; */
+  color: rgb(0, 0, 0);
+  background-color: rgb(59, 57, 57);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.DisLogo {
+  /* height: 70px; */
+  margin: auto;
+}
+.DisLogo h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: myFirstFont;
+  color: rgb(179, 18, 18);
+  padding: auto;
+  /* text-align: center; */
+}
+.lastlink{
+  color:white;
+  /* text-decoration: none; */
+}
+
+.box1{
+  color: rgb(255, 251, 251);
+  /* margin-right: 20px; */
+  font-size: 12px;
+  font-family: 'Playfair Display SC', serif;
+  /* font-family: myFirstFont; */
+ 
+}
+.box1 a {
+  color: rgb(255, 251, 251);
+  font-family: myFirstFont;
+  text-decoration: none;
+  /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+
+  /* margin-right: 20px;
+  font-size: 19px; */
+}
+.box1 a:hover{
+  color: rgb(255, 0, 0);
+  font-size: 39px;
+  
+}
+
+.bottom {
+  width: 100%;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 20px 10px;
+  width: 7px;
+  height: 7px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} 
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #035dd3;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #cd201f;
+  color: #ffffff;
+}

@@ -1,0 +1,53 @@
+.OurBox{
+    /* display: flex; */
+    height: 450px;
+    width: 900px;
+    padding: 15px 15px;
+    margin-left:35%;
+    margin: 50px auto ;
+    -webkit-box-shadow: -13px 6px 28px -7px rgba(0,0,0,1);
+    -moz-box-shadow: -13px 6px 28px -7px rgba(0,0,0,1);
+    box-shadow: -13px 6px 28px -7px rgb(4, 195, 248);
+    /* justify-content: top;
+    align-items: center;
+    flex-direction: column */
+ 
+ }
+ .box{
+ font-size:35px;
+ padding: 15px 15px;
+ }
+ 
+ .InputText{
+     font-size:35px;
+     width: 100%;
+ 
+ }
+ .btn2{
+     font-size:20px;
+     padding: 10px 10px;
+     margin-left: 15px;
+     background-color: rgba(1, 10, 1, 0.856);
+     position: relative;
+     display: inline-block;
+     padding: 25px 30px;
+    
+     color: #15f2fe;
+     font-size: 24px;
+     text-decoration: none;
+     text-transform: uppercase;
+     overflow: hidden;
+     transition: 0.5s;
+     letter-spacing: 4px;
+     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+ }
+ 
+ .required{
+     color:red;
+     font-size:15px;
+ }
+
+ .mainBox{
+height: 1000px;
+width: 100%;
+ }
